@@ -243,3 +243,11 @@ let itemsNew1 = numberArr
                     return {value : num};
                 });
 console.log(itemsNew1);
+
+
+// Reducing the array
+let arr = [1, 2, 3, 4];
+let total = arr.reduce((accumulator, currentValue) => accumulator + currentValue);
+// if we do not write the initialize value 
+// accumulator will start with first index
+console.log('Total Sum : ' + total);
