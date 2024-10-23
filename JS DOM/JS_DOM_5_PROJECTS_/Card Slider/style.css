@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    color: #016df9;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url("images/bg.jpg") #030728 no-repeat center;
+}
+
+#card{
+    display: flex;
+    /* justify-content: center; */
+    
+    text-align: center;
+}
